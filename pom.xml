@@ -14,6 +14,7 @@
         <mysql.connector.version>5.1.18</mysql.connector.version>
         <slf4j.version>1.7.1</slf4j.version>
         <junit>4.11</junit>
+        <aspectj>1.7.2</aspectj>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -24,7 +25,12 @@
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
-
+        <!-- 切面编程-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj}</version>
+        </dependency>
         <!-- spring框架 -->
         <dependency>
             <groupId>org.springframework</groupId>
